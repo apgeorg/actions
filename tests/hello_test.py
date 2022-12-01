@@ -13,7 +13,7 @@ class TestHello(unittest.TestCase):
 
     def test_hello(self):
         from lib.hello import hello
-        self.assertTrue(hello(), "Hello World")
+        self.assertEqual(hello(), "Hello World")
         
         
 
