@@ -6,6 +6,7 @@ class TestHello(unittest.TestCase):
 
     def setUp(self) -> None:
         #sys.path.append("../")
+        pass
 
         
     def tearDown(self) -> None:
