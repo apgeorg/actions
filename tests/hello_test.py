@@ -5,7 +5,7 @@ import unittest
 class TestHello(unittest.TestCase):
 
     def setUp(self) -> None:
-        sys.path.append("../")
+        #sys.path.append("../")
 
         
     def tearDown(self) -> None:
