@@ -1,7 +1,9 @@
 name: Publish Docker Image
 on:
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
+    tags:
+      - 'v*'
   workflow_dispatch:
     inputs:
       name:
