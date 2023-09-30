@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows: ["Unit Tests"]
     types:
-      - completed
+      - success
   workflow_dispatch:
     inputs:
       name:
