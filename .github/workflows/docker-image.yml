@@ -45,4 +45,4 @@ jobs:
         context: .
         push: true
         tags: ${{ steps.meta.outputs.tags }}
-        labels: ${{ inputs.name }}
+        labels: ${{ steps.meta.outputs.labels }}
